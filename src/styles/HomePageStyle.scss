@@ -1,0 +1,29 @@
+@use "../index.scss";
+.home{
+    display: flex;
+    background-color: index.$light-color;
+    color: index.$dark-color;
+    flex-direction: column;
+    
+}
+.home-header{
+    padding: 1em;
+    text-align: left;
+    margin-top: 4em;
+    p{
+        font-size: 2em;
+        padding-bottom: 0.8em;
+    }
+    h1{  
+        text-transform: uppercase;
+        font-size: 2.5em;
+    }
+    img{
+        padding: 0;
+        margin: 0;
+    }
+    span{
+        color: index.$brand-color;
+    }
+    
+}
