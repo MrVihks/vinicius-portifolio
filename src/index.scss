@@ -14,9 +14,25 @@ $lightest-color: #FFFFFF;
     font-family: 'Josefin Sans', sans-serif;
 
 }
+*::selection{
+    background-color: $mid-color;
+    color: $light-color;
+}
 section{
-
+    background-image: url("./assets/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
+}
+section:nth-child(2){
+    background-image: url("./assets/background-img.png");
+    transform: rotate(-180deg) scaleX(-1);
+  
+}
+section:nth-child(2){
+    background-image: url("./assets/background-img.png");
+    transform: rotate(-180deg) scaleX(-1);
+  
 }
 button{
     border: 3px solid $brand-color;
@@ -24,7 +40,7 @@ button{
     width: 10em;
     height: 3em;
     border-radius: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: left;
     color: $brand-color;
     font-weight: 700;
