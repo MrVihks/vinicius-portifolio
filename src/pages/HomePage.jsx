@@ -8,9 +8,7 @@ const HomePage = () => {
         <section className='home'>
              <img src={ProgrammingIMG} alt="" height={300} width={300} />
             <article className='home-header'>
-                <p>Seja bem-vindo ao meu portifólio, meu nome é  <h1><span>Vinicius Henrique</span></h1> sou <span>Desenvolvedor Web</span></p>
-               
-        
+                <p>Seja bem-vindo ao meu portifólio, meu nome é </p> <h1><span>Vinicius Henrique</span></h1><p> sou <span>Desenvolvedor Web</span></p>
             </article>
 
         </section>

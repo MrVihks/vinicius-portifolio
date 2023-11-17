@@ -19,21 +19,20 @@ $lightest-color: #FFFFFF;
     color: $light-color;
 }
 section{
-    background-image: url("./assets/background-img.png");
+    background-image: url("./assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
 }
-section:nth-child(2){
-    background-image: url("./assets/background-img.png");
-    transform: rotate(-180deg) scaleX(-1);
+section:nth-child(even){
+    background-image: url("./assets/background-inverted.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   
 }
-section:nth-child(2){
-    background-image: url("./assets/background-img.png");
-    transform: rotate(-180deg) scaleX(-1);
-  
-}
+
 button{
     border: 3px solid $brand-color;
     background-color: transparent;

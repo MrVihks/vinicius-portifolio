@@ -1,0 +1,22 @@
+@use "../index.scss";
+.skills{
+
+    h1{
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 0.5em;
+         text-transform: uppercase;
+         color: index.$brand-color;
+         font-size: 3em;
+     }
+     .skills-content{
+       padding-top: 1em;
+     }
+    }
+
+@media(min-width:768px){
+    .skills-content{
+        display: flex;
+        flex-direction: row;
+    }
+}

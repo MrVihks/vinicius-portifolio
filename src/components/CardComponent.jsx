@@ -1,8 +1,13 @@
 import React from 'react'
+import "../styles/CardComponentStyle.scss"
 
-const CardComponent = () => {
+const CardComponent = ({title, content, svg}) => {
   return (
-    <div>CardComponent</div>
+    <article className='card'>
+        <img src={svg} alt="" height={200} width={200}/>  
+        <h2>{title}</h2>
+        <p>{content}</p>
+    </article>
   )
 }
 
