@@ -18,7 +18,7 @@ $lightest-color: #FFFFFF;
     background-color: $mid-color;
     color: $light-color;
 }
-section{
+section:nth-child(odd){
     background-image: url("./assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,30 +30,28 @@ section:nth-child(even){
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
   
 }
 
 button{
-    border: 3px solid $brand-color;
+    border: 3px solid $light-color;
     background-color: transparent;
     width: 10em;
     height: 3em;
     border-radius: 1em;
     font-size: 1.5em;
-    text-align: left;
-    color: $brand-color;
+    text-align: center;
+    color: $light-color;
     font-weight: 700;
     text-transform: uppercase;
-    @media (min-width:700px){
-        padding-left: 0em;
-        text-align: center;
-    }
+ 
 }
 button:hover{
-    background-color: $brand-color;
-    color: $light-color;
+    background-color: $light-color;
+    color: $brand-color;
     a{
-        color: $light-color;
+        color: $brand-color;
     }
 }
 a{

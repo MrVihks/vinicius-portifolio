@@ -1,7 +1,7 @@
 @import  "../index.scss";
 .card{
     background-color: $brand-color;
-    width: 21em;
+    width: 20em;
     height: 20em;
     text-align: center;
     padding-left :1em;
@@ -20,6 +20,7 @@
     }
     p{
         font-size:2em;
+        padding: 0em 0.5em 0em 0.5em;
         color: $light-color;
     }
     img{

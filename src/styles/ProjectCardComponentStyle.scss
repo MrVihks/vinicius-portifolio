@@ -1,0 +1,39 @@
+@import "../index.scss";
+
+.project-card {
+    background-color: $brand-color;
+    width: 20em;
+    height: 38em;
+    text-align: center;
+
+    margin: auto;
+    border-radius: 1em;
+
+    @media (max-width:768px) {
+        margin-top: 2em;
+
+    }
+
+    h2 {
+    
+        font-size: 35px;
+        color: $light-color;
+        font-weight: 700;
+        text-transform: uppercase;
+        min-height: 3em;
+    }
+
+    p {
+        font-size: 1.6em;
+        margin: auto;
+        text-align: justify;
+        padding: 0em 0.5em 0em 0.5em;
+        color: $light-color;
+        min-height: 4em;
+    }   
+
+    button {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+}
