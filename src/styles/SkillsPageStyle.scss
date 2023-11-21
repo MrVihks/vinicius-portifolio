@@ -1,7 +1,6 @@
 @use "../index.scss";
 .skills{
     padding-top: 2em;
-    padding-bottom: 2em;
     h1{
         text-align: center;
         padding-top: 2em;
@@ -12,7 +11,7 @@
      }
      .skills-content{
        padding-top: 1em;
-     }
+    }
     }
 
 @media(min-width:768px){

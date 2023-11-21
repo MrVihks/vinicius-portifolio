@@ -1,0 +1,10 @@
+@import "../index.scss";
+.footer{
+     text-align: center;
+    background-color: $brand-color;
+        h1{
+            padding-top: 1em;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+}
